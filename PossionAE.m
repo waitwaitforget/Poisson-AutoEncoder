@@ -1,3 +1,12 @@
+% THIS SCRIPT IMPLEMENT A POSSION AUTOENCODER (A SPECIAL KIND OF AE)
+% PAPER REFERENCED BY "Ranzato M A, Szummer M. Semi-supervised learning of compact document representations with deep networks[C]"
+%                   //Proceedings of the 25th international conference on Machine learning. ACM, 2008: 792-799.
+% CODED BY KAI TIAN
+% CONTACT : tiank311@gmail.com
+% IF YOU HAVE ANY QUESTION, PLEASE LET ME KNOW.
+% FEEL FREE FOR ANY USE OF THIS SCRIPT.
+
+
 function PAE = PossionAE(X,nHid,beta)
 %% All vector should be column-wise
 % HYPERPARAMETERS
