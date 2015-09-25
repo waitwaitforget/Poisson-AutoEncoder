@@ -6,10 +6,7 @@
 % IF YOU HAVE ANY QUESTION, PLEASE LET ME KNOW.
 % FEEL FREE FOR ANY USE OF THIS SCRIPT.
 
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
 function PAE = PossionAE(X,nHid,beta)
 %% All vector should be column-wise
 % HYPERPARAMETERS
@@ -97,7 +94,7 @@ end
 function res = invsigmoid(z)
     res = sigmoid(z).*(1-sigmoid(z));
 end
-<<<<<<< HEAD
+
 function y = logadd(x)
 y = zeros(size(x));
     for e = 1:numel(x)
@@ -106,5 +103,4 @@ y = zeros(size(x));
         end
     end
 end
-=======
->>>>>>> origin/master
+
